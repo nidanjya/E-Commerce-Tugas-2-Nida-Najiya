@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>shopee-header</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="Shopee">
+    <div class="top-bar">
+      <div class="top-links">
+        <a href="#">Seller Center</a>
+        <a href="#">Download</a>
+        <a href="#">Follow Us</a>
+      </div>
+      <div class="user-links">
+        <a href="login.html">Login</a> | 
+        <a href="#">Register</a> | 
+        <a href="cart.html">Cart (0)</a>
+      </div>
+    </div>
+
+    <div class="middle-bar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="IMG/shopee logo.png" alt="Logo" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search in Shopee...">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li>
+          <a href="Produk.html">Kategori</a>
+          <ul class="dropdown">
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Home & Garden</a></li>
+          </ul>
+        </li>
+        <li><a href="Produk.html">Produk</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="Kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- FORM KONTAK -->
+  <main style="padding: 40px;">
+    <section class="kontak-form">
+      <h2>Hubungi Kami</h2>
+      <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Anda" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-nav">
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="newsletter-signup">
+      <h3>Subscribe ke Newsletter Kami</h3>
+      <form>
+        <input type="email" placeholder="Masukkan email Anda">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="social-media">
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    </div>
+    <div class="payment-methods">
+      <img src="visa-icon.png" alt="Visa">
+      <img src="mastercard-icon.png" alt="MasterCard">
+      <img src="paypal-icon.png" alt="PayPal">
+    </div>
+  </footer>
+</body>
+</html>
